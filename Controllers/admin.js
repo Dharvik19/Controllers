@@ -70,3 +70,8 @@ exports.getProducts = (req, res, next) => {
     });
   });
 };
+
+exports.deletrProducts=(req, res, next)=>{
+  const prodId = req.body.productId;
+  
+}
